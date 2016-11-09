@@ -96,6 +96,8 @@ fi
 
 : ${CORE_DOWNLOAD_LOCATION:="https://dotnetcli.blob.core.windows.net/dotnet/${CORE_CHANNEL}/Binaries/${CORE_VERSION_FIRST}/dotnet-dev-ubuntu-x64.${CORE_VERSION}.tar.gz"}
 
+CORE_DOWNLOAD_LOCATION="https://go.microsoft.com/fwlink/?LinkID=827536"
+
 echo "Installing the dependencies"
 apt_install libunwind8 gettext
 
